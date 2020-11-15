@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+</head>
+<body  background="images/bg3.jpg">
+    <header>
+        <a href="index.html"> <img class="img1" src="images/logo1.png" alt="logo" width="50" height="50"></a>
+         <div class="head-tag">
+            <a href="index.html">Home</a>
+            <a href="districts.html">District</a>
+            <a href="#">ContactUs</a>
+         </div>
+     </header>
+
+
+     <form action="#" class="signup">
+         <h2><b>Sign Up</b></h2>
+
+        <div class="lcontent">
+            <label>Name:</label> 
+            <br>
+            <input id="fname" type="text"  placeholder="First name">
+            <input id="lname" type="text"  placeholder="Last name">
+
+
+        </div>
+
+        <div class="lcontent">
+            <label><b>Username</b></label> 
+            <br>
+            <input style="color: black;" id="email" type="text"  placeholder="Email id">
+            <label id="err"></label>
+        </div>
+        <div class="lcontent">
+            <label><b>Mobile no</b></label> 
+            <br>
+            <input id="mno" type="text"  placeholder="10-digit" onfocus="emailValidate()">
+
+        </div>
+
+
+        <div class="lcontent">
+            <label><b>Password</b></label> 
+            <br>
+            <input type="password" placeholder="password"  onfocus="numberVaidate()">
+        </div>
+
+        <div class="lcontent">
+            <input id="button1" type="button" value="Sign Up">
+            <!-- <input id="buttonr" type="reset" value="clear">  -->
+        </div>
+        <div class="misc">
+            if you already have an account??<a href="login.html">Login!!</a>
+        </div> 
+
+    </form>
+    
+    
+</body>
+</html>
