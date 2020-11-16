@@ -19,7 +19,7 @@
      </header>
     
 
-<form action="#">
+<form action="index.html" onsubmit="return emailValidate()">
     
     <h2 style="color:white;"><b>Login</b></h2>
     <!-- <div class="input-box">
@@ -41,7 +41,7 @@
 
     <div class="input-box">
         <span class ="span1"><i class="fa fa-key"></i></span>
-        <input type="password" id="password" placeholder="Password" required >
+        <input type="password" id="password" placeholder="Password" required onfocus="emailValidate()">
     </div>
         <button class="button-signup" type="submit"><i class="fa fa-log-in"></i>Login</button>
     <div class="misc">
